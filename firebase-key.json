@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "icecream-732e3",
+  "private_key_id": "6741a266a0eb962de12dac6c6563948a5e81bc56",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDfHVmjRZhIGIN7\nhNGXspELzR5oE9WEx5xqQwscQlyGShUQVZ5AeVXkJOvWJxPFrufvo5CQwIyM341m\n3IrLYUvL4Q+0xEFUepKwXFEgOQWTEq/8Z+bACm8OAjjRrpy4dr/MmzA22Mv08/CB\n+f3NZRseTPWIG3ukWHtvDCZhmp2hLrFnFGzEMjMmgTzbM4VRJ08oVbA4rqtjQU4Q\nU99pJLOv16fg3a+KcRkMsJswaN++tkPi0RFRLHsqxptSlwIrx62XByEcPQdE/Hmg\nJK4mPX1WpZc9FwHlKEa1rwJywcPmBMOblxoCpS/QIPFzlfI2ZmsYFHTAcIRTufd9\nnsSt1sVTAgMBAAECggEAFLPZyiG38eyjlDw5R7NJuS4bX0eD3V7speftqbDqRyQS\nbnvhty4EqPdyEkkS94AoxLgvi5CKTVU+MihOd3VIpE52xIYdx8B0SKM9Fdlxdnmn\nIcUXiLdCVPe8A1zWU7/h2sYfN0YIYTgA/fzorq/Ug3KOdkaSkCfaE25HSD3U2L+n\nhz4DydQbtk+qeLdAzVjjxrgEWq5Mk+ChW6VAl9zaHBDPOgIrTcIBZNVBBZYymQoL\nUCbOdyb74UCWk0nFDiyDiEGl9Joh4VLtBA8f7idtEV6Hxy2LLBFrWiEBEt/ALnNn\niai3/KjnT5KtwsyieWxFfjvtAlJ+aAdKzFoWkKtzTQKBgQD35AZPJyCuOXoayZXp\nEotTJ+qb7K52aS/hp3M0Iz2kU5SXWIt+7Mb98MAYGiTpfYddb6sEKqDX2WIo+sIf\nKW/HXaVqod54OagkyaeXE+fGYnER3StB+fLLuHfd5GIFnoRYt2MyfekuPCZxCzPS\nQCHgU+ZcV12WaEMmZzd+iyAEnwKBgQDmadY60a6loXe8kWTD3v5G9dkMQrHqXSt3\nwYn+GGffHaHrWM49ECG9s4XPHimET8OZeXQ8Acm1p3ZcvEDttE7pROEe7sp6EZ9t\nfr0UOPYUnOuDZVAMp2ToI0tokwDzHbHu62p5Pp8E2q6UzhMWbs/7Pho7W56R/X6e\n2tCUnJGuzQKBgEB/mBSoPZyXX+nwYY0PQikUzbpcTtiIbejsxNDgCn3jMVpfs4wG\n14/jQFgFFW2bN8lb8MdYwBjpetzmwfORuH/LIesoytXFSransW9hwoCfxIO9ZC/6\ndO4ExUt6zPZhVFYxASJ2GGHrTKVFIOqnvSi9K8cDBFrKLg6j9JB8aoxJAoGAe1gO\n2Z/j2UCtw2ElywD1p/D1xu1xJp/HpC0T/NT9zd+kDUOV6/RVy6JtsClaWj0E3YS5\n52GhpD/ISe5w547Na2x3AsMb2urSKKBfAZNYkEJMhSNYDd4SU36JYKrJKFwuI1Mc\nxVjzcXrLWFdUun6Jkdp12m66XTaRcOJ8JAIIrsUCgYEAvq5bZbLAeBpsNnYGWCRG\n41GMPLVMtTMY9ygeLi4UCrwnZz+Xcu8qInu/e0qIlz29JGJV+URAQhH/YAOTRVWy\noSbpUKYL+zaewLVZJrkCN6Aq4DO8f32cqWyrBIZoZU3b7pxuSgTWYrv6Lo2h3i9x\nEyu1WCwQOuqjQYfcuFP0ZZw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-hm10o@icecream-732e3.iam.gserviceaccount.com",
+  "client_id": "104198168714893818347",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-hm10o%40icecream-732e3.iam.gserviceaccount.com"
+}

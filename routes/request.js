@@ -10,7 +10,7 @@ router.get("/",(req ,res)=>{
 
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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', 
 });
 const openai = new OpenAIApi(configuration);
 
