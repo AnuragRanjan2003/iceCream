@@ -14,8 +14,10 @@
     "body-parser": "^1.20.2",
     "circular-json": "^0.5.9",
     "express": "^4.18.2",
+    "express-session": "^1.17.3",
     "firebase": "^9.18.0",
     "firebase-admin": "^11.5.0",
+    "mongoose": "^7.0.3",
     "ngrok": "^4.3.3",
     "nodemon": "^2.0.21",
     "openai": "^3.2.1"
