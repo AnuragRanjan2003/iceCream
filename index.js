@@ -11,8 +11,8 @@ env.config()
 
 
 const app = express();
-const port  = 80;
-const dbUrl = "mongodb+srv://MainUser:XHOqYqtsQ1urwqOD@users.mn6tdzm.mongodb.net/?retryWrites=true&w=majority"
+const port  = process.env.PORT 
+const dbUrl = process.env.MONGO_URL
 const connectionConfig={
     useNewUrlParser: true,
     useUnifiedTopology: true,
