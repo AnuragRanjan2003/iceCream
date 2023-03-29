@@ -6,6 +6,8 @@ import Users from './firebaseconfig.js';
 import mongoose from 'mongoose';
 import session from 'express-session';
 import dbRouter from './routes/database.js';
+import env from 'dotenv'
+env.config()
 
 
 const app = express();
@@ -21,8 +23,9 @@ mongoose.connect(dbUrl,connectionConfig).then((it) => {
 }).catch((err) => console.error(err));
 
 var url2 =  "";
-const id = "0koZqDZp4P19IWKCpRbL";
-await ngrok.authtoken("2NUyRNijqG8ozqpeTJY7ng8Lfzo_KUossDse8rgK59BmCURY");
+const id = process.env.FIRECLOUD_ID ;
+//console.log(`token ${process.env.GPT_API_KEY}`)
+await ngrok.authtoken(process.env.NGROK_TOKEN);
 const url = await ngrok.connect()
     .then(url=>{
         console.log(url); 

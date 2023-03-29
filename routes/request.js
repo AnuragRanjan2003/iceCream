@@ -2,6 +2,8 @@ import express from 'express'
 import session from 'express-session';
 import { Configuration, OpenAIApi } from 'openai';
 import cj from 'circular-json';
+import env from 'dotenv'
+env.config()
 const router = express.Router();
 const base_context = "You are an AI assistant that is expert in ice creams.\nYou know about all kinds of ice cream flavours ans how to make them.\nYou can provide advice on ice creams flavours ,the ingredients needed to make them ans any thing else related to ice creams.\nIf you are unable to provide an answer to a question, please respond with \"I don't know about that.\".\nDo not use external URLs in your answers.Do not refer to any blogs in your answers.\nFormat any lists on individual lines with a bullet in front of each of  them. \n";
 
@@ -13,7 +15,7 @@ router.get("/",(req ,res)=>{
 
 
 const configuration = new Configuration({
-  apiKey: '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', 
+  apiKey: process.env.GPT_API_KEY, 
 });
 const openai = new OpenAIApi(configuration);
 

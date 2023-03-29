@@ -1,5 +1,7 @@
 import firebase from 'firebase-admin';
 import serviceAccount from './firebase-key.json' assert{ type: "json"};
+import env from 'dotenv'
+env.config()
 
 
 const firebaseConfig = {
@@ -14,7 +16,7 @@ const firebaseConfig = {
   
     messagingSenderId: "845132449826",
   
-    appId: "1:845132449826:web:e8314961279208ac09a27b",
+    appId: process.env.FIREBASE_APP_ID,
   
     measurementId: "G-BKB5L95EKB"
   
