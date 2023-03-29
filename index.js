@@ -40,8 +40,8 @@ app.use(bodeParser.json());
 app.use(session({
     secret: 'keyboard cat',
     resave: true,
-    saveUninitialized: true
-    
+    saveUninitialized: true,
+    maxage: 600000    
 }))
 app.use('/request',routes);
 app.use('/databse',dbRouter);
